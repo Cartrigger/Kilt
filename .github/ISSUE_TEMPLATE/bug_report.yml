@@ -45,6 +45,8 @@ body:
       label: Version of Kilt
       description: What version of Kilt are you running? Commit ID or actions link.
       placeholder: 'e50efb1 or https://github.com/KiltMC/Kilt/actions/runs/11543635012'
+    validations:
+      required: true
   - type: textarea
     id: actual
     attributes:
