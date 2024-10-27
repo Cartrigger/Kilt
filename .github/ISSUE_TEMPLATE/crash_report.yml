@@ -37,9 +37,15 @@ body:
         Please provide the exact version of the mod you are using. Every part of
         the version is important! If you do not know what version you are using,
         look at the file name in your `mods` folder.
-      placeholder: 'Example: 0.0.1.3+mc1.19.2'
+      placeholder: 'Example: 0.0.1.3+mc1.20.1'
     validations:
       required: true
+  - type: textarea
+    id: verkilt
+    attributes:
+      label: Version of Kilt
+      description: What version of Kilt are you running? Commit ID or actions link.
+      placeholder: 'e50efb1 or https://github.com/KiltMC/Kilt/actions/runs/11543635012'
   - type: textarea
     id: repro-steps
     attributes:
